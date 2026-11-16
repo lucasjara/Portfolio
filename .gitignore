@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Local secrets and certificates
+*.pfx
+*.key
+appsettings.*.local.json
+.env
+.env.*
+
+# Local project guide (not part of solution)
+docs/PORTFOLIO_SETUP_GUIDE.md

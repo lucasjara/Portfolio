@@ -1,6 +1,5 @@
 @Portfolio_HostAddress = http://localhost:5265
 
-GET {{Portfolio_HostAddress}}/weatherforecast/
+### OpenAPI (Development)
+GET {{Portfolio_HostAddress}}/openapi/v1.json
 Accept: application/json
-
-###
